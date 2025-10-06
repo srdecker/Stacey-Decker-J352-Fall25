@@ -1,0 +1,40 @@
+/*
+MY COLOR PALETTE
+Plum - #8A4F7D
+Gray - #887880
+Blueish - #88A096
+Khakis - #BBAB8B
+Pink - #EF8275
+*/
+
+body {
+    background-color: #bbab8b;
+    text-align:center;
+}
+
+button {
+    background-color: #8a4f7d;
+    color: #ef8275;
+    font-family: "Montserrat", sans-serif;
+    text-transform:uppercase;
+    width:200px;
+    padding:10px;
+    margin-top:50px;
+    border:none;
+    border-radius:5px;
+}
+
+button:hover {
+    background-color: #887880;
+}
+
+h1 {
+    font-family: "Space Grotesk", sans-serif;
+    letter-spacing: 10px;
+    line-height: 10px;
+}
+
+h2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: lighter;
+}
