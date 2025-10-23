@@ -24,7 +24,7 @@ button {
     border-radius:5px;
 }
 
-button:hover {
+button: hover {
     background-color: #887880;
 }
 
