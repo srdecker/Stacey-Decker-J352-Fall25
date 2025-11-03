@@ -1,0 +1,44 @@
+@media screen {
+    #headshot {
+        width: 300px;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    #contact a {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #contact a:hover {
+        color: red;
+    }
+
+    #info {
+        width: 100%;
+        margin: auto;
+    }
+    
+    #footer {
+        position:fixed;
+        bottom:0;
+        background-color:burlywood;
+        width:100%;
+        padding:10px;
+        left:0;
+    }
+}
+
+@media (min-width: 576px) {
+    #info {
+        width: 700px;
+    }
+
+    #headshot {
+        float: left;
+        margin-right: 20px;
+    }
+}
