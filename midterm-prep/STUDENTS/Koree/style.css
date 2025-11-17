@@ -1,0 +1,41 @@
+@media screen {
+    @media (min-width:576px) {
+        h1 {
+            font-size: 80px;
+        }
+    }
+    
+
+
+body {
+    font-family: Georgia, serif;
+}
+
+#article {
+   width: 70%; 
+   margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    
+}
+
+ #date{
+    color: #5f5f5f;
+     font-size: 12px;
+}
+
+#byline {
+    font: bold;
+}
+
+img {
+    width: 100%;
+}
+
+}
+
+#headshot {
+    width: 30px
+}
