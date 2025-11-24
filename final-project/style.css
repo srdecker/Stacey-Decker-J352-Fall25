@@ -1,0 +1,82 @@
+/*Colors
+ * Green = #455011
+*/
+
+/*Fonts
+  font-family: "Spectral", serif;
+  font-family: "Sorts Mill Goudy", serif;
+*/
+
+@media screen {
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        font-family: "Spectral", serif;
+        margin: 20px 10% 0px 20px;
+        background-color: rgba(69, 80, 17, 0.5);
+        padding: 20px;
+    }
+
+    h2 {
+        font-family: "Sorts Mill Goudy", serif;
+        color: aqua;
+        margin: 20px 50% 0px 20px;
+    }
+
+    #topper {
+        background-color: #455011;
+    }
+
+    #topper3 {
+        background-image: url(20CLI-50x50-alabama-02-ljph-superJumbo.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+    #imgcol {
+        background-image: url(20CLI-50x50-alabama-01-ljph-superJumbo.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+    p {
+        width: 100%;
+        margin: auto;
+    }
+
+    .chart {
+        width: 100%;
+        margin: auto;
+    }
+    
+    #content {
+        background-color: antiquewhite;
+    }
+}
+
+@media (min-width: 576px) {
+    p {
+        width: 60%;
+        margin: auto;
+    }
+    
+        .chart {
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .caption {
+        width: 100%;
+        color: gray;
+        font-size: smaller;
+    }
+
+    h1 {
+        margin: 20px 50% 0px 20px;
+    }
+}
