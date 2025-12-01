@@ -1,100 +1,38 @@
-/*My CSS comment*/
-/*
-MY COLOR PALETTE
-Moss - #514b23
-Blush - #c96480
-Kiwi - #bbbe64
-Gumball - #779cab
-Plum - #59114d
-*/
+@media screen{
+h1{
+    font-family: font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px
+}
 
-body {
-    background-color: #cbc0ad;
-    text-align: center;
-    
+h2{
+    font-family:  font-family: "Work Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px
+}
+
+img{
+    width: 100%;
+ 
 }
 
 button {
-    background-color: #443742;
-    color: #c96480;
-    text-transform: uppercase;
-    width: 200px;
-    padding: 10px;
-    margin-top:  50px;
-    border: none;
-    border-radius: 20px;
-    font-family: "Smooch Sans", sans-serif;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 5px 12px 5px 12px;
+    border-radius: 4px
+    }
+
 }
 
-
-button:hover {
-    background-color: #514b23;
-    font-family: "Smooch Sans", sans-serif;
+@media (min-width:576px){
+    h1{
+        font-size: 50px
+    }
     
-}
-
-button a{
-    color: #c96480;
-}
-
-h1 {
-    font-family: "Smooch Sans", sans-serif;
-    letter-spacing: 10px;
-    word-spacing: normal
-   
-    
-}
-
-.jobtitle {
-    font-family: "Verdana";
-    font-style: italic;
-    font-weight: bold;
-    
-}
-
-.location {
-    font-family: "Verdana";
-    font-style: italic;
-}
-
-.dates {
-    font-family: "Verdana";
-    font-style: italic;
-}
-
-#navigation {
-    background-color: #361d2e;
-    color: #f4eee3
-}
-
-#topper {
-    background-color: beige
-}
-
-.list-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px
-    width: 100%
-    margin: 0 auto;
-}
-
-.list-wrapper {
-    flex: 1;
-    padding: 10px;
-}
-
-
-#headshot {
-    width:300px;
-    border-radius: 900px;
-    border: none;
-}
-
-@media (min-width:576px) {
-    h1 {
-        font-size: 100px
+    img{
+        width: 400px
     }
 }
-
-

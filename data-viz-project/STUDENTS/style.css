@@ -1,0 +1,19 @@
+#article{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: auto
+    
+}
+
+#title{
+    font-size: 50px;
+    
+}
+
+#byline{
+    font-size: smaller;
+}
+
+#date{
+    font-size: smaller;
+}
