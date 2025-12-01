@@ -36,6 +36,14 @@
         height: 100vh;
     }
 
+    #topper2 {
+        padding: 0px;
+    }
+
+    .imagecol {
+        padding: 0px;
+    }
+
     #imgcol {
         background-image: url(20CLI-50x50-alabama-01-ljph-superJumbo.jpg);
         background-size: cover;
@@ -51,10 +59,41 @@
     .chart {
         width: 100%;
         margin: auto;
+        border: 3px solid black;
     }
-    
+
     #content {
         background-color: antiquewhite;
+    }
+
+    .disclaimer {
+        font-style: italic;
+    }
+
+    .caption {
+        font-size: 12px;
+    }
+
+    .pullquote {
+        background-color: #e7d5c8;
+        /*border-radius: 25px;*/
+        border-left: 10px solid #455011;
+        width: 50%;
+        float: right;
+    }
+
+    .quote {
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .quotemark {
+        font-size: 170px;
+        float: left;
+        line-height: 0em;
+        padding: 80px 2px 30px 0px;
+        font-family: "Sorts Mill Goudy", serif;
     }
 }
 
@@ -63,12 +102,16 @@
         width: 60%;
         margin: auto;
     }
-    
-        .chart {
+
+    .chart {
         width: 60%;
         margin: auto;
     }
 
+    .pullquote {
+        width: 60%;
+        margin: auto;
+    }
 
     .caption {
         width: 100%;
