@@ -8,7 +8,7 @@
 */
 
 @media screen {
-    img {
+    img, video {
         width: 100%;
     }
 
@@ -24,8 +24,15 @@
         color: aqua;
         margin: 20px 50% 0px 20px;
     }
+    
+    h3 {
+        background-color:black;
+        color:white;
+        text-align:center;
+        margin:0px;
+    }
 
-    #topper {
+    #topper1 {
         background-color: #455011;
     }
 
@@ -36,11 +43,7 @@
         height: 100vh;
     }
 
-    #topper2 {
-        padding: 0px;
-    }
-
-    .imagecol {
+    .fullwidth {
         padding: 0px;
     }
 
@@ -82,7 +85,7 @@
         float: right;
     }
 
-    .quote {
+    .quote, .attribution {
         width: 100%;
         margin: auto;
         padding: 20px;
@@ -94,6 +97,12 @@
         line-height: 0em;
         padding: 80px 2px 30px 0px;
         font-family: "Sorts Mill Goudy", serif;
+    }
+    
+    #toptext {
+    position: absolute;
+    top: 7%;
+    display: block;
     }
 }
 
