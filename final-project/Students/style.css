@@ -1,0 +1,98 @@
+@media screen {
+    #story {
+        margin: auto;
+        width: 100%;
+    }
+    #story2 {
+        margin: auto;
+        width: 100%;
+    }
+    #story3 {
+        margin: auto;
+        width: 100%;
+    }
+    h1 {
+        margin-top: 40px;
+        font-weight: bold;
+        font-family: "Open Sans", sans-serif;
+    }
+    .twitter-tweet {
+        display: block;
+        margin: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    h2 {
+        text-align-last: center;
+    }
+    img {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #zilisch {
+        padding-top: 20px;
+    }
+    h5 {
+        text-align: center;
+        font-size: small;
+    }
+    #Gluck {
+        text-align: center;
+    }
+    #header {
+        padding-top: 200px;
+        font-family: "Oswald", sans-serif;
+    }
+    p {
+        width: 100%;
+        text-align: left;
+    }
+    #disclaimer {
+        font-style: italic;
+    }
+    .quote {
+        border-top: solid;
+        border-width: thick;
+        border-color: navy;
+        margin: auto;
+        color: black;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 20px 0 10px 0;
+        background-color: #d3d3d3;
+    }
+    .attribution {
+        border-bottom: solid;
+        border-width: thick;
+        border-color: navy;
+        color: black;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px 0 20px 0;
+        background-color: #d3d3d3;
+    }
+}
+@media (min-width: 576px) {
+    #story {
+        width: 70%;
+    }
+    #story2 {
+        width: 70%;
+    }
+    #story3 {
+        width: 70%;
+    }
+    #header {
+        padding-top: 100px;
+    }
+    #zilisch {
+        padding-top: 100px;
+    }
+}
